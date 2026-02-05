@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IoT Desk Occupancy Detector</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>IoT-Based Desk Occupancy Detector</h1>
+  <p>Smart Workspace Management System</p>
+</header>
+
+<nav>
+  <a href="#abstract">Abstract</a>
+  <a href="#intro">Introduction</a>
+  <a href="#problem">Problem</a>
+  <a href="#method">Methodology</a>
+  <a href="#architecture">Architecture</a>
+  <a href="#working">Working</a>
+  <a href="#results">Results</a>
+  <a href="#future">Future Scope</a>
+  <a href="#team">Team</a>
+</nav>
+
+<section id="abstract">
+  <h2>Abstract</h2>
+  <p>
+    This project presents an IoT-based desk occupancy detection system for
+    real-time workspace monitoring. Using an ultrasonic sensor and NodeMCU,
+    the system detects human presence and displays occupancy status remotely
+    while maintaining privacy.
+  </p>
+</section>
+
+<section id="intro">
+  <h2>Introduction</h2>
+  <p>
+    The Internet of Things (IoT) enables devices to communicate and exchange
+    data seamlessly. Monitoring desk usage is essential for optimizing
+    space and energy usage in smart campuses and offices.
+  </p>
+</section>
+
+<section id="problem">
+  <h2>Problem Statement & Motive</h2>
+  <p>
+    Existing desk monitoring systems are manual, expensive, or invasive.
+    This project aims to build a low-cost, privacy-safe and automated
+    solution using ultrasonic sensing.
+  </p>
+</section>
+
+<section id="method">
+  <h2>Methodology</h2>
+  <ul>
+    <li>Ultrasonic sensor measures distance</li>
+    <li>NodeMCU processes sensor data</li>
+    <li>Status sent via Wi-Fi</li>
+    <li>Occupied / Unoccupied displayed</li>
+  </ul>
+</section>
+
+<section id="architecture">
+  <h2>System Architecture</h2>
+  <p>
+    Ultrasonic Sensor → NodeMCU → Wi-Fi → Cloud → Web Interface
+  </p>
+  <!-- Optional image -->
+  <!-- <img src="assets/architecture.png"> -->
+</section>
+
+<section id="working">
+  <h2>Working Principle</h2>
+  <p>
+    If the measured distance is less than 60 cm, the desk is considered
+    occupied. If the distance exceeds 75 cm, the desk is marked unoccupied.
+    LED indicators provide local feedback.
+  </p>
+</section>
+
+<section id="results">
+  <h2>Results</h2>
+  <ul>
+    <li>Accurate occupancy detection</li>
+    <li>Low power consumption</li>
+    <li>Real-time monitoring</li>
+  </ul>
+</section>
+
+<section id="future">
+  <h2>Future Scope</h2>
+  <ul>
+    <li>Multi-desk monitoring</li>
+    <li>Smart lighting & HVAC control</li>
+    <li>AI-based usage analysis</li>
+    <li>Smart campus deployment</li>
+  </ul>
+</section>
+
+<section id="team">
+  <h2>Project Team</h2>
+  <p>
+    Adhishri Anand<br>
+    Brahdeesh U P<br>
+    Easwar A P<br>
+    Prasham Girish Hodlur<br>
+    <b>Vinit Jangir</b>
+  </p>
+</section>
+
+<footer>
+  <p>VIT Chennai | IoT Mini Project</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
